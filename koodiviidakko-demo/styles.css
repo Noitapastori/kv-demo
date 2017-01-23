@@ -1,0 +1,212 @@
+body, html{
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.container-fluid{
+  padding: 10px;
+}
+
+.parallax{
+  background-image: url(img/jumbotron.png);
+
+  height: 50%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  padding: 10px;
+  text-align: center;
+  margin-top: 7%;
+  font-family: sans-serif;
+}
+
+h2{
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 15px;
+}
+
+.picture_heading{
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 25%;
+  color: #fff;
+  text-shadow: 2px 2px #282828;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+p{
+  font-family: sans-serif;
+}
+
+li{
+  display:inline-block;
+}
+
+a {
+  color:#fff;
+  padding: 10px;
+}
+
+a:hover {
+  color:#e5e5e5;
+}
+
+.p_footer{
+  margin-left: 10%;
+  margin-top: 10px;
+  padding: 5px;
+  color: #fff;
+}
+
+.li_footer{
+  display:inline-block;
+  margin-top: 15px;
+  margin-right: 15px;
+  color: #fff;
+}
+
+li:hover{
+  text-decoration: underline;
+}
+
+.dropdown {
+  float: right;
+}
+
+.top{
+  background: #7ea46d;
+  padding: 10px;
+}
+
+.reference_heading{
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.text_justify{
+  font-size: 12px;
+  text-align: center;
+}
+
+.well-sm{
+  border: none;
+  border-radius: 2%;
+  padding-left: 10px;
+  background: #fff;
+}
+
+.well-lg{
+  background: #e5e5e5;
+}
+
+.header{
+  margin-bottom: 15px;
+}
+
+.header:hover{
+  cursor: pointer;
+}
+
+#myNavbar{
+  background: #fff;
+}
+
+#numbers{
+  float: left;
+  position: absolute;
+}
+
+#clients, #employees, #daily{
+  font-size: 32px;
+  text-align: center;
+}
+
+#clients_h, #employees_h, #daily_h{
+  font-size: 18px;
+  text-align: center;
+}
+
+#subscribe{
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#contact{
+  margin-left: -50%;
+  color: #fff;
+  font-size: 16px;
+}
+
+#contact_btn{
+  padding: 10px;
+  float: left;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: -250px;
+}
+
+#social{
+  padding: 5px;
+  margin-top: 15px;
+  display: inline-block;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.social:hover{
+  transform: rotate(360deg);
+}
+
+.alert{
+  display: none;
+  margin-top: 10px;
+}
+
+.glyphicon{
+  margin-right: 5px;
+}
+
+.jumbotron{
+  background: none;
+  color: #fff;
+  width: 100%;
+  height: 25%;
+  text-shadow: 2px 2px #282828;
+  margin-bottom: 15px;
+}
+
+.navbar{
+  border: none;
+  height: 12%;
+}
+
+.navbar-brand{
+  width: 214px;
+  height: 80px;
+  background: url(img/logo.png) no-repeat;
+  background-size: contain;
+}
+
+.nav {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.footer {
+  background: #000;
+  width: 100%
+}
+
+.container{
+  padding-top: 15px;
+}
